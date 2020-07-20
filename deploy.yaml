@@ -21,8 +21,8 @@ spec:
         # Using this as a way to avoid having to bother pushing images to registry.
         imagePullPolicy: Always
         # Just spin & wait forever
-        command: [ "/bin/bash", "-c", "--" ]
-        args: [ "while true; do sleep 30; done;" ]
+        # command: [ "/bin/bash", "-c", "--" ]
+        # args: [ "while true; do sleep 30; done;" ]
         # readinessProbe:
         #   httpGet:
         #     path: /
